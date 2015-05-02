@@ -1,10 +1,11 @@
-#define MAX_DATA_POINTS 10000
-#define MAX_CLUSTER 100
-#define MAX_DATA_DIMENSION 5
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#define MAX_DATA_POINTS 79
+#define MAX_CLUSTER 3
+#define MAX_DATA_DIMENSION 21
 
 int num_data_points;
 int num_clusters;
